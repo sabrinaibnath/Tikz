@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+
+
+\begin{document}
+\tikzstyle{diam} = [diamond, aspect=2, draw, fill=red!40, text width=6em,text centered ]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=3cm,text centered, rounded corners, minimum height=2em ]
+\tikzstyle{trap} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum height=2em, text centered, draw, fill=yellow!30]
+\tikzstyle{rect} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=red, fill=orange!30]
+\tikzstyle{line} = [draw, -latex]
+
+\begin{tikzpicture}[node distance=1cm and 1cm]
+%place node
+\node[rect](init){start here};
+\node[diam,below=of init](decision1){decision 1?};
+\node[block,right=of decision1,yshift=1cm](block1){block1};
+\node[block,below=of decision1,yshift=-1cm](block2){block2};
+\node[block,right=of block2](block3){block3 is very long text,i am adding more text};
+\node[diam,below=of block3,yshift=-1cm](block4){decision2?};
+\node[block,right=of block4](block5){block5};
+\node[diam,below=of block4,yshift=-1](block6){decision3};
+\node[block,left=of block6](block7){block6};
+\node[block,right=of block6](block8){block7};
+\node[block,below=of block6](block9){block9};
+\node[block,right=of block9](block10){block10};
+\node[block,left=of block9](block11){block11};
+
+%place arrow
+\path[line](init)--(decision1);
+\path[line](decision1)-|node[right]{yes}(block1);
+\path[line](decision1)--node[left]{no}(block2);
+\path[line](block2)--(block3);
+\path[line](block3)--(block4);
+\path[line](block4)--node[above]{no}(block5);
+\path[line](block5)|-(block3);
+\path[line](block4)--node[fill=white]{yes}(block6);
+\path[line](block6)--node[above]{yes}(block7);
+\path[line](block6)--node[above]{no}(block8);
+\path[line](block7)--node[fill=white]{yes}(block11);
+\path[line](block11)--(block9);
+\path[line](block9)--(block10);
+
+\path[<->](block7.west)edge[bend left=50](block2.west);
+\path[line, rounded corners] (init.west) -| ($(init.west) - (1,1)$) |- (block2.west);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\begin{document}
+\section{Problem\_1}
+\begin{tikzpicture}
+%nodes
+\node[draw=red,circle,fill=orange!20,label=above:s,minimum size=1cm] (a) at (0,0){0};
+\node[draw=red,circle,fill=orange!20,label=above:c,minimum size=1cm] (b) at (3,0){5};
+\node[draw=red,circle,fill=orange!20,label=above:d,minimum size=1cm] (c) at (6,0){11};
+\node[draw=red,circle,fill=orange!20,label=above:g,minimum size=1cm] (d) at (9,0){$-\infty$};
+\node[draw=red,circle,fill=orange!20,label=above:a,minimum size=1cm] (e) at (3,2){3};
+\node[draw=red,circle,fill=orange!20,label=above:b,minimum size=1cm] (f) at (6,2){-1};
+\node[draw=red,circle,fill=orange!20,label=above:e,minimum size=1cm] (g) at (3,-2){$-\infty$};
+\node[draw=red,circle,fill=orange!20,label=above:f,minimum size=1cm] (h) at (6,-2){$-\infty$};
+
+%lines
+\draw[->,very thick] (a) to node[above]{5} (b);
+\draw[->,very thick,bend left=20] (b) to node[above]{6} (c);
+\draw[->,very thick,bend left=20] (c) to node[below]{-3} (b);
+\draw[->,very thick] (c) to node[above]{8} (d);
+\draw[->,very thick](a) to node[below]{2} (g);
+\draw[->,very thick,bend left=20](g) to node[above]{3} (h);
+\draw[->,very thick,bend left=20](h) to node[below]{-6} (g);
+\draw[->,very thick](h) to node[below]{7} (d);
+\draw[->,very thick](a) to node[above]{3} (e);
+\draw[->,very thick](e) to node[above]{-4} (f);
+\draw[->,very thick](f) to node[above]{4} (d);
+
+\section{
+\end{tikzpicture}
+\end{document}

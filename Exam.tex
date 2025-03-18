@@ -1,0 +1,286 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{amssymb}
+\usepackage[cmex10]{amsmath}
+\usepackage{array, tabularx, booktabs, multicol, multirow, supertabular}
+\usepackage{tabulary}
+\usepackage{float}
+\usepackage{graphicx}
+\author{Sab}
+\graphicspath{{"C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah/"}}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{footnote}
+\usepackage{hyperref} % Move this to the last position
+\usepackage[backend=biber]{biblatex}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+\bibliography{reference}
+\begin{document}
+\section{inline manipulation}
+%for inverted comma:
+``noki"\\
+%for emphasize
+\emph{sina weibo}\\
+%for mbo
+\mbox{log}\\
+%for writting approximate
+$\approx$\\
+%for color in red, green, blue
+{\color{blue}this is blue}\\
+%for color using hexa code
+{\color[HTML]{8e1a00}this is using html\_code}\\
+%for using backslash
+$\setminus$ this is using latex symbol\\
+%for using backslash
+\textbackslash{wildfire}
+%for using special symbol
+\&\\
+\%\\
+%for using subscript
+$x_{2}$\\
+%for using superscript
+$x^{2}$\\
+%to use underscore (1st way)
+\_underscoreNoki\\
+%another way
+\_\\
+
+\section{Itemize and Enumerate}
+\label{ref:Itemize}
+\subsection{Normal Itemize}
+\begin{itemize}
+\item this is first
+\item this is second
+\item this is third
+\end{itemize}
+
+\subsection{Using special symbol for item label}
+\begin{itemize}
+\item[--]this is first
+\item[*]this is second
+\item[$\diamondsuit$]this is third
+\end{itemize}
+
+\subsection{Number type Itemize}
+\begin{enumerate}
+\item this is first
+\item this is second
+\item this is second
+\end{enumerate}
+
+\subsection{Roman numbered type itemize(Lowercase)}
+\begin{enumerate}[i]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+
+\subsection{Roman Numbered type itemize(uppercase)}
+\begin{enumerate}[I]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+
+\subsection{reducing space between items}
+\begin{enumerate}[nosep]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+\subsection{reducing space and provide special item label}
+\begin{enumerate}[nosep,label=*]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+
+\subsection{Reducing space and provide Romanized Item Label}
+\begin{enumerate}[nosep,label=\roman*]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+\subsection{reducing space and provide numeric item label}
+\begin{enumerate}[nosep,label=\arabic*]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+\subsection{Alpha}
+\begin{enumerate}[A]
+\item this is first
+\item this is second
+\item this is third
+\end{enumerate}
+
+\section{Mathematical Equation and Expression}
+\begin{equation}
+e_{t}=h_{t}w_{a}
+\end{equation}
+
+\begin{equation}
+a_{t}=\frac{\exp(e_{t})}{\sum^{T}_{i=1}\exp(e_{i})}
+\end{equation}
+
+\begin{equation}
+v=\sum^{T}_{i=1}a_{i}h_{i}
+\end{equation}
+
+\begin{equation}
+P(m^{(i)},n^{(i)})=\sum^{k}_{j=1}1{\{n^{(i)}=j\}}\mbox{log}(n_{j}^{\sim(i)})
+\end{equation}
+
+\begin{equation*}
+\begin{split}
+\mbox{Combined Span} = &Span[index[1]] \cup \\  
+                       &Span[index[1]] \cup \\
+                       &Span[index[1]]
+\end{split}
+\end{equation*}
+\begin{equation*}
+\begin{split}
+R_j: & \ \mbox{if}\ x_1\ \mbox{is}\ A_{j1}\ \mbox{and/or}\ ........\ x_n\ \mbox{is}\ A_{jn}\\
+	 & \ \mbox{then}\ Class=C_j, \ \ \ j=1,......,N
+\end{split}
+\end{equation*}
+
+\section{Table}
+\label{ref:table}
+\subsection{Normal table}
+\begin{table}[!h]
+\centering 
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Col1} & \textbf{Col2} & \textbf{Col3} & \textbf{Col4}\\
+\hline
+1 & 6 & 4 & --\\
+\hline
+2 & 7 & 5 & 10\\
+\hline
+11 & 12 & 13 & 14\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Normal table Two}
+\label{ref:table}
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|m{4cm}|c|}
+\hline
+\textbf{Col1} & \textbf{Col2} &\multicolumn{1}{c|}{\textbf{Col3}} & \textbf{Col4}\\
+\hline
+1 & 2 & 3 & 4\\
+2 & 7 & 87838 & 787\\
+3 & 545 & 778 & 7507\\
+4 & 545 & 18744 & 7560\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Table using BookTab}
+\label{ref:table}
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+\multicolumn{1}{c}{\textbf{Team Name}} & \textbf{F1-Score}\\
+\midrule
+HITSZ-HLT9(1st)& 0.7083028253\\
+hitmi\&t(3rd)  & 0.6984762534\\
+IITKDetox(9th) & 0.6895352667\\
+\textbf{CSECUDSG(21st)} & \textbf{0.679526545}\\
+\bottomrule
+\end{tabular}
+\caption{Comparative Performance analysis.}
+\end{table}
+
+\subsection{Table using multirow:}
+\begin{table}[h]
+\centering
+\caption{Comparative performance analysis}
+\begin{tabular}{lcccc}
+\toprule
+\multirow{2}[3]{*}{Methods}  & \multicolumn{4}{c}{Any-Type(Micro Avg.)}\\
+\cmidrule{2-5} & Precision & Recall & \textbf{F1 Score} & Accuracy\\
+\midrule
+proposed method & 0.4504 & \textbf{1.000 } & \textbf{0.6023} & \textbf{0.4504}\\
+\midrule
+\textit{\mbox{Top 5 Performing Team in TRECIS-2018}}\\
+\midrule
+cbnusS2 &\textbf{ 0.4098} & 0.7700 & 0.5789 & 0.4321\\
+KDEIS4\_DM & 0.3914 & 0.9813 & 0.5784 & 0.3987\\
+\midrule
+Participant median & 0.3987 & 0.6163 & 0.4123 & 0.3378\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Figure Inclusion}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.7\linewidth]{Ni.pdf}
+ \caption{proposed framework}
+ \label{fig:ggplot}
+\end{figure}
+
+\subsection{including 2 pictures in a row}
+\begin{figure}[H]
+\centering
+\begin{tabular}{cp{0.5cm}c}
+\includegraphics[width=0.4\textwidth]{Ni.pdf} &
+&\includegraphics[width=0.4\textwidth]{Ni.pdf}
+\end{tabular}
+\end{figure}
+
+\section{Algorithm}
+\begin{algorithm}[H]
+\SetAlgoLined
+\KwIn{Input:\\}
+\KwOut{Output:\\}
+\KwResult{Write here the result }
+ initialization\;
+ \While{While condition}{
+  instructions\;
+  \eIf{condition}{
+   instructions1\;
+   instructions2\;
+   }{
+   instructions3\;
+  }
+ }
+\caption{How to write algorithms}
+\end{algorithm}
+
+\begin{algorithmic}
+\STATE $i\gets 10$
+ \IF{$ i\geq 5$}
+    \STATE $i\gets i+2$
+\ELSE
+\IF{$i\leq 3$}
+   \STATE $i\gets i+2$
+   \ENDIF
+\ENDIF
+\end{algorithmic}
+
+\section{Footnote and reference }
+Hi\footnote{This is the first footnote.}\\
+Some sample texts to illustrate the use of footnotes\footnote{Footnotes are sometimes used to provide additional information}.\url{https://git.io/JkW6V}
+
+
+
+
+
+This is the reference: \cite{holmes2004artificial}.
+
+\printbibliography
+
+\end{document}
+

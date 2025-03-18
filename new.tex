@@ -1,0 +1,124 @@
+\documentclass[]{article}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage[usestackEOL]{stackengine}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\author{sabrina}
+
+\title{finally LaTex}
+\graphicspath{{"C:/Users/Acer/OneDrive/Documents/"}}
+\begin{document}
+\section{Inline text manipulation}
+
+\maketitle
+sabrina ibnath\\
+``Noki"\\% opening and closing inverted comma
+"noki"\\%wrong format of inverted comma
+\emph{Nowshed}\\%for exphasize
+\textbf{\textit{Sir}}\\%for making sir itelaic and bold
+$ \epsilon $%dollar sign diye likhte hobe mathmetical jinish in line e(eke line e). jodi dollar sign er moddhe kono text o likhi tao mathemetical expression hishebe count korbe
+
+
+$\mbox{simple text}$\\%lim, log ei gulo normal text tai ei gulo likhar time e mbox lagbe(jeshob text stright lagbe tader jonno mbox
+
+{\color{blue}it's a blue color}\\%color er jonno lina ta curly braces e niye then color korbo
+
+{\color[HTML]{653328} this is  color}\\
+%$\setminus$\\%this is done using mathmetical backshlesh
+%for normal blackshlesh
+\textbackslash{wildfire}\\
+$\approx$\\
+59\% \& to\_use\_underscore\\
+
+%subscribt and superscribt
+$X_{2}$\\
+$X^{2}$\\
+%clt+t dile comment
+%clt+e dile uncomment
+
+%bullet and numbering
+\section{Bullet}
+\label{red:itemize}
+\subsection{it's starting}
+\begin{itemize}
+\item this is first
+\item this is second
+\end{itemize}
+
+\subsection{it's is starting with many symbol}
+\begin{itemize}
+\item[--]this
+\item[*]that
+\item[$\diamond$]u are a bitch
+\end{itemize}
+
+\subsection{It's starting with many numbers}
+\begin{enumerate}
+\item this
+\item that
+\item you are amazing
+\end{enumerate}
+
+\subsection{It's starting with many Roman numbers and reducing}
+\begin{enumerate}[i]
+\item this
+\item that
+\item you are amazing
+\end{enumerate}
+
+\subsection{It's starting with star and reducing}
+\begin{enumerate}[nosep,label=*]
+\item this
+\item that
+\item you are amazing
+\end{enumerate}
+
+\subsection{It's starting with star and reducing}
+\begin{enumerate}[a]
+\item this
+\item that
+\item you are amazing
+\end{enumerate}
+
+\subsection{It's starting with alpha and reducing}
+\begin{enumerate}[A]
+\item this
+\item that
+\item you are amazing
+\end{enumerate}
+
+\section{Math equation}
+\begin{equation}
+e_{t}=h_{t}w_{a}
+\label{eqn:sampleEquation}
+\end{equation}
+\begin{equation}
+a_{t}=\frac{\exp(e_{t}}{\sum^{T}_{i=1}\exp(e_{i})}
+\end{equation}
+
+\begin{equation}
+v=\sum^{T}_{i=1}a_{i}h_{i}
+\end{equation}
+
+\begin{equation}
+P(m^{(i)}, n^{(i)}) = \sum_{j=1}^{k} 1\{ n^{(i)} = j \log(n_{j}^{\sim(i)}) \}
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+\mbox{combined span} = & \, \text{Span}[index[1]] \cup \\
+                       & \, \text{Span}[index[2]] \cup \\
+                       & \, \text{Span}[index[3]] \cup \\
+                       & \, \text{Span}[index[4]]
+\end{split}
+\end{equation}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{Chart_Presentation.pdf}
+\caption{chart}
+\end{figure}
+\end{document}
