@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.4)  21 JAN 2025 07:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.4)  26 JAN 2025 06:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -505,8 +505,7 @@ ex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box63
-)
-No file Tikz_basic.aux.
+) (Tikz_basic.aux)
 \openout1 = `Tikz_basic.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -556,23 +555,17 @@ your preamble.
  on input line 7.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <7> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 18.
 
-Overfull \hbox (16.61528pt too wide) in paragraph at lines 10--19
+Overfull \hbox (17.01527pt too wide) in paragraph at lines 12--21
 [][] [] 
  []
 
 [1
 
-{C:/Users/Acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+{C:/Users/Acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (Tikz_basic.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -580,21 +573,20 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21840 strings out of 474486
- 592092 string characters out of 5744227
- 1928542 words of memory out of 5000000
- 43816 multiletter control sequences out of 15000+600000
- 561104 words of font info for 46 fonts, out of 8000000 for 9000
+ 21820 strings out of 474486
+ 591989 string characters out of 5744227
+ 1927542 words of memory out of 5000000
+ 43802 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,93p,736b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,93p,727b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mmi10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr17.pfb>
-Output written on Tikz_basic.pdf (2 pages, 46258 bytes).
+nts/cm/cmr10.pfb>
+Output written on C:\Users\Acer\TextmakerCode\build\Tikz_basic.pdf (1 page, 245
+87 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  19 words of extra memory for PDF output out of 10000 (max. 10000000)
 

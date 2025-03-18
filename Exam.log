@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.4)  1 JAN 2025 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.4)  21 JAN 2025 07:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -532,14 +532,250 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip84
 )
-\bibdata{reference}
-(Exam.bbl)
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count315
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count316
+\c@listtotal=\count317
+\c@listcount=\count318
+\c@liststart=\count319
+\c@liststop=\count320
+\c@citecount=\count321
+\c@citetotal=\count322
+\c@multicitecount=\count323
+\c@multicitetotal=\count324
+\c@instcount=\count325
+\c@maxnames=\count326
+\c@minnames=\count327
+\c@maxitems=\count328
+\c@minitems=\count329
+\c@citecounter=\count330
+\c@maxcitecounter=\count331
+\c@savedcitecounter=\count332
+\c@uniquelist=\count333
+\c@uniquename=\count334
+\c@refsection=\count335
+\c@refsegment=\count336
+\c@maxextratitle=\count337
+\c@maxextratitleyear=\count338
+\c@maxextraname=\count339
+\c@maxextradate=\count340
+\c@maxextraalpha=\count341
+\c@abbrvpenalty=\count342
+\c@highnamepenalty=\count343
+\c@lownamepenalty=\count344
+\c@maxparens=\count345
+\c@parenlevel=\count346
+\blx@tempcnta=\count347
+\blx@tempcntb=\count348
+\blx@tempcntc=\count349
+\c@blx@maxsection=\count350
+\blx@maxsegment@0=\count351
+\blx@notetype=\count352
+\blx@parenlevel@text=\count353
+\blx@parenlevel@foot=\count354
+\blx@sectionciteorder@0=\count355
+\blx@sectionciteorderinternal@0=\count356
+\blx@entrysetcounter=\count357
+\blx@biblioinstance=\count358
+\labelnumberwidth=\skip85
+\labelalphawidth=\skip86
+\biblabelsep=\skip87
+\bibitemsep=\skip88
+\bibnamesep=\skip89
+\bibinitsep=\skip90
+\bibparsep=\skip91
+\bibhang=\skip92
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count359
+\c@maxcomprange=\count360
+\c@mincompwidth=\count361
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count362
+\c@savedafterword=\count363
+\c@annotator=\count364
+\c@savedannotator=\count365
+\c@author=\count366
+\c@savedauthor=\count367
+\c@bookauthor=\count368
+\c@savedbookauthor=\count369
+\c@commentator=\count370
+\c@savedcommentator=\count371
+\c@editor=\count372
+\c@savededitor=\count373
+\c@editora=\count374
+\c@savededitora=\count375
+\c@editorb=\count376
+\c@savededitorb=\count377
+\c@editorc=\count378
+\c@savededitorc=\count379
+\c@foreword=\count380
+\c@savedforeword=\count381
+\c@holder=\count382
+\c@savedholder=\count383
+\c@introduction=\count384
+\c@savedintroduction=\count385
+\c@namea=\count386
+\c@savednamea=\count387
+\c@nameb=\count388
+\c@savednameb=\count389
+\c@namec=\count390
+\c@savednamec=\count391
+\c@translator=\count392
+\c@savedtranslator=\count393
+\c@shortauthor=\count394
+\c@savedshortauthor=\count395
+\c@shorteditor=\count396
+\c@savedshorteditor=\count397
+\c@labelname=\count398
+\c@savedlabelname=\count399
+\c@institution=\count400
+\c@savedinstitution=\count401
+\c@lista=\count402
+\c@savedlista=\count403
+\c@listb=\count404
+\c@savedlistb=\count405
+\c@listc=\count406
+\c@savedlistc=\count407
+\c@listd=\count408
+\c@savedlistd=\count409
+\c@liste=\count410
+\c@savedliste=\count411
+\c@listf=\count412
+\c@savedlistf=\count413
+\c@location=\count414
+\c@savedlocation=\count415
+\c@organization=\count416
+\c@savedorganization=\count417
+\c@origlocation=\count418
+\c@savedoriglocation=\count419
+\c@origpublisher=\count420
+\c@savedorigpublisher=\count421
+\c@publisher=\count422
+\c@savedpublisher=\count423
+\c@language=\count424
+\c@savedlanguage=\count425
+\c@origlanguage=\count426
+\c@savedoriglanguage=\count427
+\c@pageref=\count428
+\c@savedpageref=\count429
+\shorthandwidth=\skip93
+\shortjournalwidth=\skip94
+\shortserieswidth=\skip95
+\shorttitlewidth=\skip96
+\shortauthorwidth=\skip97
+\shorteditorwidth=\skip98
+\locallabelnumberwidth=\skip99
+\locallabelalphawidth=\skip100
+\localshorthandwidth=\skip101
+\localshortjournalwidth=\skip102
+\localshortserieswidth=\skip103
+\localshorttitlewidth=\skip104
+\localshortauthorwidth=\skip105
+\localshorteditorwidth=\skip106
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count430
+\c@textcitetotal=\count431
+\c@textcitemaxnames=\count432
+\c@biburlbigbreakpenalty=\count433
+\c@biburlbreakpenalty=\count434
+\c@biburlnumpenalty=\count435
+\c@biburlucpenalty=\count436
+\c@biburllcpenalty=\count437
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count438
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bb
+x
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count439
+\c@bbx:relatedtotal=\count440
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
+\l__color_backend_stack_int=\count441
 \l__pdf_internal_box=\box114
-) (Exam.aux
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.
+sty
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+\@quotelevel=\count442
+\@quotereset=\count443
+ (Exam.aux
 
 LaTeX Warning: Label `ref:table' multiply defined.
 
@@ -549,38 +785,38 @@ LaTeX Warning: Label `ref:table' multiply defined.
 )
 \openout1 = `Exam.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
+\scratchcounter=\count444
 \scratchdimen=\dimen264
 \scratchbox=\box115
-\nofMPsegments=\count317
-\nofMParguments=\count318
+\nofMPsegments=\count445
+\nofMParguments=\count446
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count319
+\MPscratchCnt=\count447
 \MPscratchDim=\dimen265
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
+\MPnumerator=\count448
+\makeMPintoPDFobject=\count449
 \everyMPtoPDFconversion=\toks32
 )
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
@@ -593,41 +829,56 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
- (C:\Users\Acer\TextmakerCode\build\Exam.out)
-(C:\Users\Acer\TextmakerCode\build\Exam.out)
-\@outlinefile=\write3
-\openout3 = `Exam.out'.
+Package hyperref Info: Link coloring OFF on input line 24.
+ (Exam.out) (Exam.out)
+\@outlinefile=\write4
+\openout4 = `Exam.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Exam.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Exam.bbl' found.
+ (Exam.bbl)
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
 
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 
 
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-7.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+1.
 
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--49
+Underfull \hbox (badness 10000) in paragraph at lines 27--53
 
  []
 
 [1
 
 {C:/Users/Acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (52.76944pt too wide) in paragraph at lines 205--220
+Overfull \hbox (52.76944pt too wide) in paragraph at lines 209--224
  [][] 
  []
 
@@ -638,24 +889,27 @@ File: C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf Graphic file (type p
 df)
 <use C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf>
 Package pdftex.def Info: C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf  
-used on input line 225.
+used on input line 229.
 (pdftex.def)             Requested size: 241.49895pt x 241.5029pt.
 File: C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf Graphic file (type p
 df)
 <use C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf>
 Package pdftex.def Info: C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf  
-used on input line 234.
+used on input line 238.
 (pdftex.def)             Requested size: 137.9979pt x 138.00055pt.
 File: C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf Graphic file (type p
 df)
 <use C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf>
 Package pdftex.def Info: C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf  
-used on input line 235.
+used on input line 239.
 (pdftex.def)             Requested size: 137.9979pt x 138.00055pt.
  [4 <C:/Users/Acer/OneDrive/Pictures/Ggplot_Grpah//Ni.pdf>] [5]
 
-LaTeX Warning: Citation `holmes2004artificial' on page 6 undefined on input lin
-e 274.
+LaTeX Warning: Citation 'holmes2004artificial' on page 6 undefined on input lin
+e 281.
+
+
+LaTeX Warning: Empty bibliography on input line 283.
 
 [6] (Exam.aux)
  ***********
@@ -670,33 +924,45 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Exam.out' has not changed.
-(rerunfilecheck)             Checksum: DD942235F1D08BB90F75E4824771BA01;4156.
+(rerunfilecheck)             Checksum: 5C2FF3E98E0B0DCE38274284EE852867;4053.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Exam
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Exam.run.xml'.
+\openout1 = `Exam.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 12468 strings out of 474486
- 194392 string characters out of 5744227
- 1940542 words of memory out of 5000000
- 34497 multiletter control sequences out of 15000+600000
+ 19633 strings out of 474486
+ 339306 string characters out of 5744227
+ 1941542 words of memory out of 5000000
+ 41613 multiletter control sequences out of 15000+600000
  565235 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,357b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
-000.pk><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Acer/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Acer/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Acer
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
-s/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmti10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb>
-Output written on C:\Users\Acer\TextmakerCode\build\Exam.pdf (6 pages, 205374 b
+ 75i,15n,81p,1151b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.7.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+ <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm100
+0.pk><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Acer/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Acer/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Acer/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
+Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmti10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmtt10.pfb>
+Output written on C:\Users\Acer\TextmakerCode\build\Exam.pdf (6 pages, 205572 b
 ytes).
 PDF statistics:
  262 PDF objects out of 1000 (max. 8388607)

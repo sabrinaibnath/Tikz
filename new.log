@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.4)  21 JAN 2025 07:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.4)  31 DEC 2024 02:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -280,70 +280,62 @@ G,.JBIG2,.JB2,.eps]
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
 g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) [1
+))
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
-{C:/Users/Acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-2.
+0.
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
 
  []
 
-[2] [3]
 
-LaTeX Warning: File `Chart_Presentation.pdf' not found on input line 121.
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
+ []
 
-! Package pdftex.def Error: File `Chart_Presentation.pdf' not found: using draf
-t setting.
+[1
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 ...th=0.7\linewidth]{Chart_Presentation.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+{C:/Users/Acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 
-[4] (new.aux)
+pdfTeX warning: pdflatex (file C:/Users/Acer/OneDrive/Documents//Chart_Presenta
+tion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<C:/Users/Acer/OneDrive/Documents//Chart_Presentation.pdf, id=20, 650.43pt x 44
+0.84702pt>
+File: C:/Users/Acer/OneDrive/Documents//Chart_Presentation.pdf Graphic file (ty
+pe pdf)
+<use C:/Users/Acer/OneDrive/Documents//Chart_Presentation.pdf>
+Package pdftex.def Info: C:/Users/Acer/OneDrive/Documents//Chart_Presentation.p
+df  used on input line 119.
+(pdftex.def)             Requested size: 241.49895pt x 163.68262pt.
+[3 <C:/Users/Acer/OneDrive/Documents//Chart_Presentation.pdf>] (new.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4257 strings out of 474486
- 68479 string characters out of 5744227
+ 4234 strings out of 474486
+ 68215 string characters out of 5744227
  1933542 words of memory out of 5000000
- 26482 multiletter control sequences out of 15000+600000
- 564660 words of font info for 59 fonts, out of 8000000 for 9000
+ 26459 multiletter control sequences out of 15000+600000
+ 564492 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,17n,69p,244b,296s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 61i,17n,69p,244b,247s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 000.pk><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -358,11 +350,11 @@ Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
 Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy7.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmti10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmtt10.pfb>
-Output written on new.pdf (4 pages, 152616 bytes).
+onts/cm/cmti10.pfb>
+Output written on C:\Users\Acer\TextmakerCode\build\new.pdf (3 pages, 183489 by
+tes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
