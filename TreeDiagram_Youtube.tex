@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+\usepackage{forest}
+
+\begin{document}
+%\begin{tikzpicture}[every node/.style={circle,draw=black}]
+%
+%\node{1}
+%  child{node{2}
+%    child{node{4}}
+%     child{node{5}}
+%     }
+%     child{node{3}}
+%;
+%\end{tikzpicture}
+
+%%basic tree
+%\begin{forest}
+%  [A
+%     [B
+%     [D[1][2]][E[3][4]]
+%     ][c
+%     [F[5][6]][G[7][8]]
+%     ]
+%   ]
+%\end{forest}
+
+%\begin{forest} for tree={circle,draw}
+%[A[B[D[1][2]][E[3][4]]][C[F[5][6]][G[7][8]]]]
+%\end{forest}
+
+%\begin{forest} for tree={circle,draw,grow'=0}
+% [A
+% [B
+% [D
+% [1][2]]
+% [E
+% [3][4]]]
+% [C
+% [F
+% [5][6]]
+% [G
+% [7][8]]]]
+%\end{forest}
+
+%\begin{forest}
+%[A,calign=first[B
+% [1][2]]
+% [C
+% [3][4]]]
+%\end{forest}
+%\begin{forest}
+%[A,calign=last[B
+% [1][2]]
+% [C
+% [3][4]]]
+% 
+%  \begin{forest}
+%	 	for tree={calign=first}
+%		[A[B[D[1][2]][E[3][4]]][C[F[5][6]][G[7][8]]]]
+%	\end{forest}
+%\end{forest}
+
+\begin{forest} for tree={circle,draw,grow=-180}
+ [A
+ [B
+ [D
+ [1][2]]
+ [E
+ [3][4]]]
+ [C
+ [F
+ [5][6]]
+ [G
+ [7][8]]]]
+\end{forest}
+\begin{forest} for tree={
+    circle,          % Nodes in circles
+    draw,            % Draw the nodes
+    grow=-90,        % Tree grows            % Level distance
+}
+ [A
+ [B
+ [D
+ [1][2]]
+ [E
+ [3][4]]]
+ [C
+ [F
+ [5][6]]
+ [G
+ [7][8]]]]
+\end{forest}
+\end{document}

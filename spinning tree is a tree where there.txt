@@ -1,0 +1,1 @@
+spinning tree is a tree where there will be the same number of vertices as the main tree but there will be number of vertices-1 edges comparing to the main graph

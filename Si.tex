@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[margin=0.25in]{geometry}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+% We will externalize the figure
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\begin{document}
+
+% Here begins the 2D plot
+\begin{tikzpicture}
+\begin{axis}
+    \addplot[color=red] {exp(x)};
+\end{axis}
+\end{tikzpicture}
+
+\hskip 5pt
+%here begins the 3D plot
+\begin{tikzpicture}
+ \begin{axis}
+  \addplot[surf,]{exp(-x^2-y^2)*x};
+ \end{axis}
+\end{tikzpicture}
+\end{document}
